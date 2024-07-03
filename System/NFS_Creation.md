@@ -30,8 +30,9 @@ To start the firewall.
 ```CMD
 systemctl enable firewalld
 ```
+```CMD
 systemctl start firewalld
-
+```
 **Option 2:**
 
 If firewall cannot be disabled.
