@@ -52,22 +52,32 @@ firewall-cmd --reload
 firewall-cmd --list-all
 ```
 
+**Configure NFS Folder**
+
+```CMD
 mkdir omshare
-
-chown admin:admin /omshare
-
-chmod 777 /omshare
-
-
+```
+```CMD
+chown admin:admin ./omshare
+```CMD
+```CMD
+chmod 777 ./omshare
+```
+```CMD
 vi /etc/exports
-
+```
+```TEXT
 /home/admin/omshare *(rw,sync)
-
+```
+```CMD
 exportfs -avr
+```
+```CMD
 exportfs  -s
-
+```
+```CMD
 exit
-
+```
 mkdir -p ./mnt/omshare
 
 sudo su
