@@ -16,7 +16,8 @@ Type visudo and edit the file by adding the following line under "_Allow root to
 ```script
 admin    ALL=(ALL)   ALL
 ```
-<img width="524" alt="image" src="https://github.com/codersyacht/Tutorials/assets/128015499/e41b0399-ffd5-470b-9a29-3069ecbe48d8">
+<img width="500" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/caa325e3-560a-4c53-b242-e39906c1431d">
+
 
 **3. Add the user to wheel group.**
 
