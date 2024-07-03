@@ -1,11 +1,12 @@
 # **NFS Creation**
 
 **Install NFS**
-
+```CMD
 sudo su
+```
 
 ```CMD
-sudo yum install nfs-utils -y
+yum install nfs-utils -y
 ```
 ```CMD
 systemctl start nfs-server.service
@@ -55,7 +56,7 @@ firewall-cmd --list-all
 
 **Configure NFS Folder**
 
-Assume pwd is /home/admin/.
+Assume pwd is /home/admin/apps.
 
 ```CMD
 mkdir omshare
@@ -70,7 +71,7 @@ chmod 777 ./omshare
 vi /etc/exports
 ```
 ```TEXT
-/home/admin/omshare *(rw,sync)
+/home/admin/apps/omshare *(rw,sync)
 ```
 ```CMD
 exportfs -avr
@@ -90,16 +91,15 @@ mkdir -p ./mnt/omshare
 sudo su
 ```
 ```CMD
-mount -t nfs 127.0.0.1:/home/admin/omshare /home/admin/mnt/omshare
+mount -t nfs 127.0.0.1:/home/admin/apps/omshare /home/admin/apps/mnt/omshare
 ```
 ```CMD
 exit
 ```
-Test by placing a file under /home/admin/mnt/omshare. Check if it is seen under /home/admin/omshare
+Test by placing a file under /home/admin/apps/mnt/omshare. Check if it is seen under /home/admin/apps/omshare
 
 **Unmounting**
 ```CMD
 umount /home/admin/apps/mnt/omshare
 ```
-Test by placing a file under /home/admin/mnt/test and see if the file is visible in /home/admin/omshare
 
