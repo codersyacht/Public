@@ -53,7 +53,8 @@ firewall-cmd --reload
 ```CMD
 firewall-cmd --list-all
 ```
-<img width="500" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/c7c53940-9d62-4bc9-bdf4-a56630bfca47">
+<img width="500" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/0a1dea23-862c-4316-baea-cbcec025037b">
+
 
 **Configure NFS Folder**
 
