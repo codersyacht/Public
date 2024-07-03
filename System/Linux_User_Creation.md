@@ -1,4 +1,4 @@
-### User Setup
+# User Setup in Linux
 
 **1. Create user admin.**
 
