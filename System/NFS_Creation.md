@@ -55,11 +55,17 @@ firewall-cmd --list-all
 ```
 <img width="500" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/0a1dea23-862c-4316-baea-cbcec025037b">
 
+```CMD
+exit
+```
 
 **Configure NFS Folder**
 
 Assume pwd is /home/admin/apps.
 
+```CMD
+sudo su
+```
 ```CMD
 mkdir omshare
 ```
