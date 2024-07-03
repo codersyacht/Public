@@ -55,6 +55,8 @@ firewall-cmd --list-all
 
 **Configure NFS Folder**
 
+Assume pwd is /home/admin/.
+
 ```CMD
 mkdir omshare
 ```
@@ -79,15 +81,25 @@ exportfs  -s
 ```CMD
 exit
 ```
+
+**Mounting a folder**
+```CMD
 mkdir -p ./mnt/omshare
-
+```
+```CMD
 sudo su
-
-mount -t nfs 127.0.0.1:/home/admin/omshare /home/admin/apps/mnt/omshare
-
+```
+```CMD
+mount -t nfs 127.0.0.1:/home/admin/omshare /home/admin/mnt/omshare
+```
+```CMD
 exit
+```
+Test by placing a file under /home/admin/mnt/omshare. Check if it is seen under /home/admin/omshare
 
- umount /home/admin/apps/mnt/omshare
-
+**Unmounting**
+```CMD
+umount /home/admin/apps/mnt/omshare
+```
 Test by placing a file under /home/admin/mnt/test and see if the file is visible in /home/admin/omshare
 
