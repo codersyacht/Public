@@ -60,7 +60,7 @@ mkdir omshare
 ```
 ```CMD
 chown admin:admin ./omshare
-```CMD
+```
 ```CMD
 chmod 777 ./omshare
 ```
