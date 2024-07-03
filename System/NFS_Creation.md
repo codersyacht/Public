@@ -15,6 +15,8 @@ systemctl enable nfs-server.service
 ```
 **Firewall Configuration**
 
+**Option 1:**
+
 If the environment is non production and if security is not a constraint, firewall can be disabled.
 
 ```CMD
@@ -29,12 +31,11 @@ To start the firewall.
 systemctl enable firewalld
 ```
 systemctl start firewalld
-```CMD
-systemctl start nfs-server.service
-```
-```CMD
-systemctl enable nfs-server.service
-```
+
+**Option 2:**
+
+If firewall cannot be disabled.
+
 ```CMD
 firewall-cmd --permanent --add-service=nfs
 ```
