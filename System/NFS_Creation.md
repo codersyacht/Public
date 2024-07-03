@@ -108,6 +108,11 @@ Test by placing a file under /home/admin/apps/mnt/omshare. Check if it is seen u
 
 **Unmounting**
 ```CMD
+sudo su
+```
+```CMD
 umount /home/admin/apps/mnt/omshare
 ```
-
+```CMD
+exit
+```
