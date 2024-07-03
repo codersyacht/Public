@@ -1,6 +1,8 @@
 # User Setup in Linux
 
-**1. Create user admin.**
+**1. Create User**
+
+In this example we are creating a user named **admin**.
 
 ```CMD
 useradd admin
