@@ -13,23 +13,29 @@ systemctl start nfs-server.service
 ```CMD
 systemctl enable nfs-server.service
 ```
+**Firewall Configuration **
+
+systemctl start nfs-server.service
+
+systemctl enable nfs-server.service
+
+firewall-cmd --permanent --add-service=nfs
+
+firewall-cmd --permanent --add-service=rpc-bind
+
+firewall-cmd --permanent --add-service=mountd
+
+firewall-cmd --reload
+
+firewall-cmd --list-all
+
+
 mkdir omshare
 
-chown admin:root /omshare
+chown admin:admin /omshare
 
 chmod 777 /omshare
 
-vi /etc/exports
-
-![image](https://github.com/codersyacht/Tutorials/assets/128015499/96194cf7-9247-4e0a-b94d-75643069a6d2)
-
-![image](https://github.com/codersyacht/Tutorials/assets/128015499/7acbeae2-a66c-4054-9b31-b23c970a5288)
-
-
-mkdir omshare
-
-chmod 777 omshare
-chmod admin:admin omshare
 
 vi /etc/exports
 
