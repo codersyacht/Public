@@ -35,5 +35,11 @@ chmod 777 -R 3rdpartyjars/
 cd /opt/ssfs/runtime/bin/
 ```
 ```CMD
-./install3rdParty.sh yfsextn 1_0 -j /root/apps/dtk/3rdpartyjars/* -targetJVM EVERY
+./install3rdParty.sh yfsextn 1_0 -j /opt/ssfs/3rdpartyjars/* -targetJVM EVERY
 ```
+
+Verify if the jars are installed successfully.
+
+<img width="790" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/58b893ef-3d3d-4f29-9c06-d72ba2269231">
+
+Check the entries in the AGENTDynamicclasspath.cfg, APPDynamicclasspath.cfg and dynamicclasspath.cfg to ensure the jar reference are added.
