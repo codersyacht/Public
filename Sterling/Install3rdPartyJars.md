@@ -28,7 +28,7 @@ rm 3rdpartyjars.tar
 
 ```CMD
 cd /opt/ssfs/runtime/bin/
-
+```
 ```CMD
 ./install3rdParty.sh yfsextn 1_0 -j /root/apps/dtk/3rdpartyjars/* -targetJVM EVERY
 ```
