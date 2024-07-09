@@ -1,3 +1,13 @@
+
+**Export Path**
+
+```CMD
+su - postgres
+```
+```CMD
+export PATH=/usr/pgsql-14/bin:$PATH
+```
+
 **Start database**
 ```CMD
 postgres -D /home/postgres/data >/home/postgres/dbstart.log 2>&1 &
