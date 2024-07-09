@@ -52,8 +52,7 @@ From the runtime's bin directory, execute the following commands.
 ```CMD
 ./setupfiles.sh
 ```
-```
-```
+```CMD
 ./dbverify.sh
 ```
 
