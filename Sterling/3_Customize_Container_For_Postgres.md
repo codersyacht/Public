@@ -1,5 +1,8 @@
 ## **Customizing Containers For PostgreSQL**
 
+Refer to the following link to configure PostgreSQL for OMS.
+_https://github.com/codersyacht/Public/tree/main/Postgres_
+
 **Updating the sandbox.cfg**
 
 ```CMD
@@ -36,7 +39,7 @@ DB2=TRUE
 ```
 
 sandbox.cfg sample reference :
-https://github.com/codersyacht/Public/blob/main/Artifacts/postgres_sandbox.cfg
+_https://github.com/codersyacht/Public/blob/main/Artifacts/postgres_sandbox.cfg_
 
 Reference:
-https://www.ibm.com/docs/en/order-management-sw/10.0?topic=software-customizing-certified-containers
+_https://www.ibm.com/docs/en/order-management-sw/10.0?topic=software-customizing-certified-containers_
