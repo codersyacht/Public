@@ -1,5 +1,10 @@
 ## **Install 3rd Party Jars**
 
+**Install 3rd Party Jars**
+```CMD
+./install3rdParty.sh yfsextn 1_0 -j /root/apps/dtk/3rdpartyjars/* -targetJVM EVERY
+```
+
 **Installing 3rd Party Jars in a runtime container for customization**
 
 Copy the custom jar present in the base operating system into the runtime container.
@@ -41,5 +46,6 @@ cd /opt/ssfs/runtime/bin/
 Verify if the jars are installed successfully.
 
 <img width="790" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/58b893ef-3d3d-4f29-9c06-d72ba2269231">
+
 
 Check the entries in the AGENTDynamicclasspath.cfg, APPDynamicclasspath.cfg and dynamicclasspath.cfg to ensure the jar reference are added.
