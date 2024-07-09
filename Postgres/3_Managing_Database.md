@@ -46,7 +46,7 @@ postgres -D /home/postgres/data >/home/postgres/dbstart.log 2>&1 &
 **Delete Database**
 
 ```CMD
-dropdb OMDB
+dropdb omdb
 ```
 
 **Accessing Postgresql port from remote machine**
