@@ -24,6 +24,7 @@ cd /opt/ssfs
 ```CMD
 tar -xvf 3rdpartyjars.tar
 rm 3rdpartyjars.tar
+chmod 777 -R 3rdpartyjars/
 ```
 
 ```CMD
