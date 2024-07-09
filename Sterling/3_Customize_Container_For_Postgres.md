@@ -40,7 +40,9 @@ DB2=TRUE
 ```
 
 sandbox.cfg sample reference :
+
 _https://github.com/codersyacht/Public/blob/main/Artifacts/postgres_sandbox.cfg_
 
 Reference:
+
 _https://www.ibm.com/docs/en/order-management-sw/10.0?topic=software-customizing-certified-containers_
