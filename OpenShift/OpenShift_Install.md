@@ -139,7 +139,8 @@ The above is within the linuc machine. If you want to access the OpenShift conso
 ```CMD
 crc status
 ```
-![image](https://github.com/codersyacht/Public/assets/128015499/d4a6ba01-9d4e-446d-b305-2a772dba8fa1)
+<img width="1002" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/36e8406b-aa23-4ecb-ba87-6824525bba13">
+
 
 
 _figure 3: crc status output_
@@ -159,7 +160,8 @@ eval $(crc oc-env)cd /usr/bin/
 ```CMD
 oc get pod --all-namespaces
 ```
-![image](https://github.com/codersyacht/Public/assets/128015499/3b27185a-3ca9-4f31-b4cf-a053582df41d)
+<img width="1002" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/02c566f5-c2b1-449c-a739-846e2be40d5f">
+
 
 
 figure 4: get pods output.
@@ -188,7 +190,8 @@ https://console-openshift-console.apps-crc.testing/
 
 uername is kubeadmin. Password is **6WdYU-FxZh4-xWdAZ-n4JQD** (Received at time of crc start).
 
-![image](https://github.com/codersyacht/Public/assets/128015499/68caae76-cdd6-4d7b-a689-1276ccc8b986)
+<img width="1002" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/035f75d3-1cf8-43cd-8c1b-aec590634c0d">
+
 
 
 _figure 5: OpenShift console home page._
