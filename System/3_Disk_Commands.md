@@ -11,7 +11,7 @@ df -h
 sudo du -a /home | sort -n -r | head -n 10
 ```
 
-***Retrieve Folders Size Including Sub Folders and Files.
+***Retrieve Folders Size Including Sub Folders and Files.***
 
 ```CMD
 du -sh *
