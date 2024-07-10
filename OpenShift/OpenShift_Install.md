@@ -114,7 +114,7 @@ The server is accessible via web console at:
 
 Log in as administrator:
   Username: kubeadmin
-  Password: 6WdYU-FxZh4-xWdAZ-n4JQD
+  Password: iViGY-aRiLA-hV5t8-XK4iM
 
 Log in as user:
   Username: developer
@@ -188,7 +188,7 @@ Access the Openshift hopepage using the following link.
 
 https://console-openshift-console.apps-crc.testing/
 
-uername is kubeadmin. Password is **6WdYU-FxZh4-xWdAZ-n4JQD** (Received at time of crc start).
+uername is kubeadmin. Password is **iViGY-aRiLA-hV5t8-XK4iM** (Received at time of crc start).
 
 <img width="1002" alt="image" src="https://github.com/codersyacht/Public/assets/128015499/035f75d3-1cf8-43cd-8c1b-aec590634c0d">
 
