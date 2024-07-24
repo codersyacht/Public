@@ -5,7 +5,7 @@
 Ensure you are installating as a non root user with sudo access.<br>
 Install Homebrew<br>
 Reference:<br> 
-_https://github.com/codersyacht/Private/blob/main/System/Homebrew%20Internals.md_
+https://github.com/codersyacht/Public/blob/main/System/Homebrew%20Internals.md
 
 **Install Docker**
 ```CMD
