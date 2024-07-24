@@ -29,3 +29,12 @@ colima start --cpu 8 --memory 16 --disk 100
 ```CMD
 docker ps
 ```
+**Troubleshooting**
+
+If the following error is observer. <br><br>
+Error saving credentials: error storing credentials - err: exec: "docker-credential-desktop": executable file not found in $PATH, out: `` <br>
+do the following:
+```CMD
+sudo vi ~/.docker/config.json
+```
+Rename credsStore to credStore and save.
