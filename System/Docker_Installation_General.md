@@ -2,7 +2,7 @@
 
 **Prerequisite:** <br>
 User Account Creation.
-https://github.com/codersyacht/Tutorials/blob/main/System/Linux_User_Creation.md
+_https://github.com/codersyacht/Public/blob/main/System/Linux_User_Creation.md_
 
 **1. Install yum utis.**
 
