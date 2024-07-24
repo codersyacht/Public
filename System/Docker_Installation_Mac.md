@@ -25,7 +25,7 @@ brew install colima
 colima start --cpu 8 --memory 16 --disk 100
 ```
 
-***Check docker**
+**Check docker**
 ```CMD
 docker ps
 ```
