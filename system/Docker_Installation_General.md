@@ -1,8 +1,8 @@
 # **Docker Installation**
 
 **Prerequisite:** <br>
-User Account Creation.
-_https://github.com/codersyacht/Public/blob/main/System/Linux_User_Creation.md_
+User Account Creation. <br>
+https://github.com/codersyacht/public/blob/main/system/Linux_User_Creation.md
 
 **1. Install yum utis.**
 
@@ -38,7 +38,7 @@ Run the following command to install Docker compose.
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 ```CMD
-chmod +x /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 Exit sudo user using exit command.
