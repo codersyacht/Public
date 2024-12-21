@@ -81,7 +81,7 @@ The installation process will prompt for sudo access. If installation is success
 2. A new directory named _/usr/local/Cellar_ will be created. This directory will contain all the software packages installed via Homebrew.
 3. A new directory named _/usr/local/Caskroom_ will be created. This directory will contain GUI applications.
 4. Few more supporting directories will be created under _/usr/local/_.
-6. The _brew_ command can be found under _/usr/local/bin_. This is symbolic link to /_usr/local/Homebrew/bin/brew_.
+6. The _brew_ command will be added to classpath. This is symbolic link to /_usr/local/Homebrew/bin/brew_.
 7. Homebrew may also add symbolic links to packages that it installs to _/usr/local/bin_.
 
 **ARM**
